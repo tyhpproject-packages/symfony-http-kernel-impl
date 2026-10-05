@@ -1,0 +1,85 @@
+{
+    "name": "tyhpdef/symfony-http-kernel-impl",
+    "description": "Implementation package for tyhpdef/symfony-http-kernel. Require tyhpdef/symfony-http-kernel, not this package.",
+    "keywords": [
+        "dev",
+        "static analysis",
+        "internal"
+    ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "version": "7.4.19.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "tyhp": {
+            "interopContractVersion": 1,
+            "php-version": ">=8.2",
+            "require": {
+                "tyhpdef/php": "@dev",
+                "tyhpdef/symfony-http-foundation": "@dev",
+                "tyhpdef/psr-log": "@dev",
+                "tyhpdef/symfony-error-handler": "@dev",
+                "tyhpdef/symfony-event-dispatcher": "@dev",
+                "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+                "tyhpdef/symfony-service-contracts": "@dev",
+                "tyhpdef/symfony-var-dumper": "@dev",
+                "tyhpdef/symfony-dependency-injection": "@dev",
+                "tyhpdef/psr-container": "@dev",
+                "tyhpdef/symfony-var-exporter": "@dev",
+                "tyhpdef/symfony-config": "@dev",
+                "tyhpdef/symfony-expression-language": "@dev",
+                "tyhpdef/symfony-cache": "@dev",
+                "tyhpdef/symfony-cache-contracts": "@dev",
+                "tyhpdef/psr-cache": "@dev",
+                "tyhpdef/psr-clock": "@dev",
+                "tyhpdef/psr-simple-cache": "@dev",
+                "tyhpdef/php-ext-memcached": "@dev",
+                "tyhpdef/php-ext-redis": "@dev",
+                "tyhpdef/predis-predis": "@dev",
+                "tyhpdef/php-ext-pdo": "@dev",
+                "tyhpdef/php-ext-dom": "@dev"
+            },
+            "package": {
+                "include": [
+                    "./_tyhpdef/*.tyhpdef",
+                    "./_tyhpdef/extensions/*.tyhpdef"
+                ],
+                "overlay": [
+                    "./_tyhpdef/overlays/stubs/*.tyhpdef",
+                    "./_tyhpdef/overlays/*.tyhpdef"
+                ]
+            },
+            "public": "tyhpdef/symfony-http-kernel"
+        }
+    },
+    "require": {
+        "php": ">=8.2",
+        "symfony/http-kernel": "7.4.19"
+    },
+    "require-dev": {
+        "tyhpdef/php": "@dev",
+        "tyhpdef/symfony-http-foundation": "@dev",
+        "tyhpdef/psr-log": "@dev",
+        "tyhpdef/symfony-error-handler": "@dev",
+        "tyhpdef/symfony-event-dispatcher": "@dev",
+        "tyhpdef/symfony-event-dispatcher-contracts": "@dev",
+        "tyhpdef/symfony-service-contracts": "@dev",
+        "tyhpdef/symfony-var-dumper": "@dev",
+        "tyhpdef/symfony-dependency-injection": "@dev",
+        "tyhpdef/psr-container": "@dev",
+        "tyhpdef/symfony-var-exporter": "@dev",
+        "tyhpdef/symfony-config": "@dev",
+        "tyhpdef/symfony-expression-language": "@dev",
+        "tyhpdef/symfony-cache": "@dev",
+        "tyhpdef/symfony-cache-contracts": "@dev",
+        "tyhpdef/psr-cache": "@dev",
+        "tyhpdef/psr-clock": "@dev",
+        "tyhpdef/psr-simple-cache": "@dev",
+        "tyhpdef/php-ext-memcached": "@dev",
+        "tyhpdef/php-ext-redis": "@dev",
+        "tyhpdef/predis-predis": "@dev",
+        "tyhpdef/php-ext-pdo": "@dev",
+        "tyhpdef/php-ext-dom": "@dev"
+    }
+}
